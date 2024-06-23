@@ -34,6 +34,7 @@ systemctl daemon-reload
 systemctl enable juneod
 systemctl start juneod
 
+
 systemctl status juneod
 
 curl -X POST --data '{
