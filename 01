@@ -13,7 +13,7 @@ mkdir -p ~/.juneogo/
 
 mv ~/juneogo-binaries/plugins/jevm ~/.juneogo/plugins && \
 mv ~/juneogo-binaries/plugins/srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e ~/.juneogo/plugins
-
+d
 tee /etc/systemd/system/juneod.service > /dev/null <<EOF 
 [Unit]
 Description=JUNEO Node
