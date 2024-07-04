@@ -13,7 +13,6 @@ e
 mkdir -p ~/.juneogo/
 
 mv ~/juneogo-binaries/plugins/jevm ~/.juneogo/plugins && \
-d
 
 tee /etc/systemd/system/juneod.service > /dev/null <<EOF 
 [Unit]
