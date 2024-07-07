@@ -31,7 +31,8 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 
 systemctl daemon-reload
-systemctl enable juneod
+systemctl enable 
+
 systemctl start juneod
 
 
